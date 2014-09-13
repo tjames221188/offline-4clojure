@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  (partial * 2)
 )
 
 (defn -main []

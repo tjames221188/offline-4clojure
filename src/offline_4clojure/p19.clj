@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(nth % (dec (count %)))
 )
 
 (defn -main []

@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(str "Hello, " % "!")
 )
 
 (defn -main []

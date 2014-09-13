@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(get (vec %1) %2)
 )
 
 (defn -main []

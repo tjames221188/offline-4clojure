@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(reduce (fn [x _] (inc x)) 0 %)
 )
 
 (defn -main []

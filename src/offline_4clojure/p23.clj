@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(reduce conj '() %)
 )
 
 (defn -main []
