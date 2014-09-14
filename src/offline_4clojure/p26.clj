@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  (fn [x] (take x ((fn fib [a b] (cons a (lazy-seq (fib b (+ b a))))) 1 1)))
 )
 
 (defn -main []

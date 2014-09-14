@@ -7,6 +7,10 @@
 
 (def __
 ;; your solution here
+ (fn [coll] (-> (fn my-flatten [r x] (if (coll? x)
+                                       (reduce my-flatten r x)
+                                       (conj r x)))
+                (reduce [] coll)))
 )
 
 (defn -main []
