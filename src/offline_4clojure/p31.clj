@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(partition-by identity %)
 )
 
 (defn -main []

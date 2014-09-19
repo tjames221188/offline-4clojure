@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  "ABC"
 )
 
 (defn -main []

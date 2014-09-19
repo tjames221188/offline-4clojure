@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(take (- %2 %1) (iterate inc %1))
 )
 
 (defn -main []

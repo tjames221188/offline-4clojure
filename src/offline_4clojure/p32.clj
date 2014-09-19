@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  (fn [c] (mapcat #(repeat 2 %) c))
 )
 
 (defn -main []

@@ -7,6 +7,11 @@
 
 (def __
 ;; your solution here
+  (fn [c n]
+    (->
+      #(if (= n (count %)) (drop-last %) %)
+      (map (partition-all n c))
+      (flatten)))
 )
 
 (defn -main []

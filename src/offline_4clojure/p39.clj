@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  (fn [c1 c2] (mapcat vector c1 c2))
 )
 
 (defn -main []

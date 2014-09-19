@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  (fn [n c] (apply concat (reverse (split-at (mod n (count c)) c))))
 )
 
 (defn -main []

@@ -7,6 +7,7 @@
 
 (def __
 ;; your solution here
+  #(drop-last (interleave %2 (repeat %1)))
 )
 
 (defn -main []

@@ -7,6 +7,8 @@
 
 (def __
 ;; your solution here
+  (fn [n]
+    (reduce * (range 1 (inc n))))
 )
 
 (defn -main []

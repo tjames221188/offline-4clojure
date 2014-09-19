@@ -7,7 +7,7 @@
 
 (def __
 ;; your solution here
-)
+  (fn [& args] (last (sort args))))
 
 (defn -main []
   (are [soln] soln
